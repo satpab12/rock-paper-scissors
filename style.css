@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+  font-family: berlin sans fb;
+  line-height: auto;
+  overflow: cover;
+}
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  background-color: #4d5359;
+  color: #fff;
+  line-height: 4rem;
+  border-radius: 50px;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  border: 2px solid black;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #4d5359;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2rem;
+}
+
+#user-score,
+#comp-score {
+  font-size: 5rem;
+}
+
+.msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.6rem;
+  line-height: 69px;
+  transform: translateY(-43px);
+  height: 122px;
+}
+
+.newgame,
+.dark-mode {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4rem;
+}
+
+#msg {
+  display: inline;
+  font-size: 2rem;
+  background-color: #4d5359;
+  color: #fff;
+  display: inline;
+  padding: 1rem;
+
+  border-radius: 1rem;
+}
+
+.newgame {
+  font-size: 2rem;
+  background-color: #4d5359;
+  color: #fff;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+}
+
+.newgame:hover {
+  background-color: red;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+  cursor: pointer;
+  border: 0.6px solid black;
+}
+
+.dark-mode {
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+}
+
+.dark-mode:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.my-name {
+  font-size: 2rem;
+}
